@@ -1,0 +1,45 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+    font-family:'sf_pixelatebold';
+    src: url('sfpixelate-bold.eot');
+    src: url('sfpixelate-bold.eot?#iefix') format('embedded-opentype'),
+         url('sfpixelate-bold.woff2') format('woff2'),
+         url('sfpixelate-bold.woff') format('woff'),
+         url('sfpixelate-bold.ttf') format('truetype'),
+         url('sfpixelate-bold.svg#sf_pixelatebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+}
+a {
+    color: #DD00FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFEE00;
+}
+
+body {
+  background-color: black;
+  color: LightGray;
+  text-align:center;
+  text-indent:0;
+  padding : 0in;
+  padding-bottom : 1in;
+  font-family: "Lucida Console";
+}
+
+frame {
+  width: 70%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
